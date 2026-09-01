@@ -1,0 +1,43 @@
+<section id="about" class="py-20 bg-slate-900">
+    <div class="container">
+        <div class="flex flex-col md:flex-row gap-12 items-center">
+            <!-- Profile Image Placeholder -->
+            <div
+                class="w-64 h-64 rounded-2xl bg-gradient-to-tr from-blue-500 to-purple-600 p-1 shadow-2xl skew-y-3 transform hover:skew-y-0 transition-transform duration-500">
+                <div class="w-full h-full bg-slate-800 rounded-xl flex items-center justify-center overflow-hidden">
+                    <span class="text-6xl">&#x1F9D1;&#x200D;&#x1F4BB;</span>
+                </div>
+            </div>
+
+            <div class="flex-1">
+                <h2 class="text-3xl font-bold mb-6 flex items-center gap-3">
+                    <span class="w-8 h-1 bg-blue-500 rounded-full"></span>
+                    About Me
+                </h2>
+                <div class="space-y-4 text-slate-300 leading-relaxed text-lg">
+                    <p *ngFor="let paragraph of bio">{{ paragraph }}</p>
+                </div>
+
+                <!-- Key Competency Highlights -->
+                <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div *ngFor="let h of highlights" class="glass-panel p-4 border border-blue-500/20 flex gap-3 items-start">
+                        <span class="text-2xl">{{ h.icon }}</span>
+                        <div>
+                            <h3 class="font-bold text-white text-sm">{{ h.title }}</h3>
+                            <p class="text-slate-400 text-xs mt-1 leading-relaxed">{{ h.detail }}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Current & Past Roles -->
+                <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div *ngFor="let job of experience" class="glass-panel p-4 border border-blue-500/20">
+                        <h3 class="font-bold text-white">{{ job.role }}</h3>
+                        <p class="text-blue-400 text-sm">{{ job.company }}</p>
+                        <p class="text-slate-500 text-xs mt-1">{{ job.duration }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

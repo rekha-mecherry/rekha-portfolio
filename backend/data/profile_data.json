@@ -1,0 +1,216 @@
+{
+  "profile": {
+    "name": "Rekha Mecherry",
+    "title": "Cloud Architect & Platform Engineer",
+    "tagline": "Bridging Cloud, AI, and Experience",
+    "about": "Experienced professional with a deep background in Cloud Platforms (Azure & GCP), Platform Engineering, and Enterprise Architecture. Passionate about Conversational AI (Alexa, Dialogflow) and Robotics (Humanoid Temi). Dedicated to solving complex business problems through innovative technology solutions.",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/rekhamecherry",
+      "facebook": "https://www.facebook.com"
+    }
+  },
+  "skills": {
+    "azure": [
+      "APIM",
+      "Application Gateway",
+      "FrontDoor",
+      "Traffic Manager",
+      "Virtual Network",
+      "WebApps",
+      "Functions Apps",
+      "API apps",
+      "Logic Apps",
+      "Event Hub",
+      "IOT Hub",
+      "Service Bus",
+      "Cognitive Services",
+      "BotFramework",
+      "QNABot",
+      "AzureEntraID",
+      "IAM",
+      "Landing Zones",
+      "Blueprints"
+    ],
+    "gcp": [
+      "Pub sub",
+      "Artifactory",
+      "Scheduler",
+      "Cloud Function",
+      "IAM",
+      "Google Kubernetes Engine",
+      "Anthos Service Mesh (Istio)",
+      "Anthos Config Management (GitOps)",
+      "Dialog flow",
+      "Fire Store",
+      "CloudStore"
+    ],
+    "aws": [
+      "Lambda",
+      "IAM",
+      "S3",
+      "DynamoDB",
+      "Lex",
+      "Amplify Framework",
+      "Alexa Presentation Framework",
+      "Rekognition"
+    ],
+    "enterprise_integrations_platforms": [
+      "Azure APIM",
+      "IBM API Connect",
+      "Apigee [F]",
+      "Pubsub",
+      "EventHub",
+      "Service Bus",
+      "LogicApps",
+      "functions"
+    ],
+    "cicd_devops": [
+      "GIT",
+      "AzureDevOps",
+      "GitHub",
+      "TFS",
+      "YAML pipeline",
+      "PowerShell",
+      "ARM",
+      "Terraform",
+      "Terraform Enterprise",
+      "Bicep",
+      "Octopus",
+      "Harness etc"
+    ],
+    "enterprise_architecture": [
+      "OpenGroup ArchiMate",
+      "Bizz Design Enterprise Studio"
+    ],
+    "ai_ml": [
+      "Copilot",
+      "ADK",
+      "Agents",
+      "Antigravity",
+      "Cognitive Services (Voice/Vision)",
+      "Alexa Skill",
+      "Google Assistance Actions",
+      "Dialogflow",
+      "Microsoft Bot Framework",
+      "MLKIT",
+      "CoreML",
+      "Speech to Text",
+      "Text to Speech"
+    ],
+    "web_api": [
+      "DOTNET[E]",
+      "Asp.net [C#]",
+      "MVC",
+      ".NET",
+      ".NET Core",
+      "WEBAPI",
+      "Micro services",
+      "WCF",
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "Typescript",
+      "Angular",
+      "Node JS",
+      "DNN",
+      "ORM",
+      "EF",
+      "Dapper",
+      "TFS",
+      "VSTS",
+      "Python [F]"
+    ],
+    "security_secops": [
+      "Cloud Security",
+      "OWASP",
+      "SAST",
+      "DAST",
+      "SCA",
+      "OPA",
+      "C9",
+      "CIS",
+      "Sentinel",
+      "Prisma Policies etc"
+    ],
+    "authentication": [
+      "OIDC",
+      "Oauth",
+      "OpenID",
+      "SSO",
+      "Identity Server",
+      "Azure AD/EntraID"
+    ],
+    "middleware_gateways": [
+      "Web API [REST]",
+      "AWS AppSync [GraphQL]",
+      "WCF",
+      "Web service IIS",
+      "IBM APIM",
+      "Azure APIM"
+    ],
+    "database": [
+      "RDMS SQL Server",
+      "Oracle",
+      "Postgres"
+    ],
+    "project_mgmt": [
+      "Agile Scrum",
+      "Kanban"
+    ],
+    "ms_business_intelligence": [
+      "ETL",
+      "SQL Server Integration Service [SSIS]",
+      "SQL Server Reporting Service [SSRS]",
+      "RDLC",
+      "SSAS"
+    ],
+    "development_tools_utilities": [
+      "VSCode",
+      "Copilot",
+      "JIRA",
+      "Confluence",
+      "VS22Fxcop",
+      "Resharper",
+      "Coverity",
+      "IBM AppScan",
+      "Enterprise library",
+      "Fiddler",
+      "Firebug"
+    ],
+    "certifications": [
+      "Google Cloud Certified - Cloud Digital Leader",
+      "Designing Microsoft Azure Infrastructure Solutions (AZ-305)",
+      "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "ArchiMate® Certification Program",
+      "Infosys Global Agile Certification",
+      "Microsoft Certified Professional - ASP.NET MVC"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Wells Fargo",
+      "role": "Cloud Architect / Platform Engineer",
+      "description": "Leading cloud transformation and platform engineering initiatives."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Humanoid Temi Integration",
+      "description": "Developed conversational interfaces for the Temi robot...",
+      "tech_stack": [
+        "Android via Temi SDK",
+        "Dialogflow",
+        "Python"
+      ]
+    },
+    {
+      "name": "Enterprise Cloud Migration",
+      "description": "Led the migration of legacy systems to Azure...",
+      "tech_stack": [
+        "Azure",
+        "Kubernetes",
+        "Terraform"
+      ]
+    }
+  ]
+}

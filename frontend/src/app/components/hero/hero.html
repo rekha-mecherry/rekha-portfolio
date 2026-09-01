@@ -1,0 +1,38 @@
+<section class="min-h-screen flex items-center justify-center relative overflow-hidden">
+  <!-- Background Glow -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-blue-500/20 rounded-full blur-[100px] -z-10"></div>
+
+  <div class="container text-center z-10 animate-fade-in">
+    <h1 class="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+      {{ title }}
+    </h1>
+    <h2 class="text-2xl text-slate-300 mb-4 font-light tracking-wide">
+      {{ tagline }}
+    </h2>
+
+    <!-- Architect Types Tagline -->
+    <div class="flex flex-wrap items-center justify-center gap-2 mb-3">
+      <span class="text-blue-400 font-bold text-sm tracking-widest uppercase">Architect:</span>
+      <ng-container *ngFor="let type of architectTypes; let last = last">
+        <span class="text-xs font-semibold px-3 py-1 rounded-full border border-blue-500/40 bg-blue-500/10 text-blue-300 tracking-wider uppercase hover:bg-blue-500/20 transition-colors cursor-default">
+          {{ type }}
+        </span>
+        <span *ngIf="!last" class="text-slate-600 font-light select-none">|</span>
+      </ng-container>
+    </div>
+
+    <!-- Industry Domains -->
+    <p class="text-sm text-slate-500 tracking-widest uppercase mb-8 font-medium">
+      {{ industries }}
+    </p>
+
+    <p class="text-lg text-slate-400 max-w-2xl mx-auto mb-10">
+      {{ description }}
+    </p>
+
+    <div class="flex gap-4 justify-center">
+      <a href="#projects" class="btn">View Projects</a>
+      <a href="#contact" class="btn bg-transparent border border-slate-600 hover:bg-slate-800">Contact Me</a>
+    </div>
+  </div>
+</section>

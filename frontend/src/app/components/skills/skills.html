@@ -1,0 +1,17 @@
+<section id="skills" class="py-20 bg-slate-950">
+    <div class="container">
+        <h2 class="text-3xl font-bold mb-12 text-center">Technical Expertise</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div *ngFor="let cat of categories" class="glass-panel hover:bg-slate-800/50 transition-colors">
+                <h3 class="text-xl font-bold mb-6 text-blue-400">{{ cat.name }}</h3>
+                <div class="flex flex-wrap gap-2">
+                    <span *ngFor="let skill of cat.skills"
+                        class="bg-slate-800 text-slate-200 px-3 py-1 rounded-full text-sm border border-slate-700">
+                        {{ skill }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,25 @@
+<section id="projects" class="py-20 bg-slate-900">
+    <div class="container">
+        <h2 class="text-3xl font-bold mb-12 text-center">Featured Projects</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div *ngFor="let project of projects"
+                class="group relative bg-slate-800 rounded-2xl overflow-hidden hover:transform hover:-translate-y-2 transition-all duration-300 shadow-xl">
+                <div class="h-2 bg-gradient-to-r" [ngClass]="project.color"></div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-3 text-white group-hover:text-blue-400 transition-colors">{{
+                        project.title }}</h3>
+                    <p class="text-slate-400 text-sm mb-6 line-clamp-3">
+                        {{ project.description }}
+                    </p>
+                    <div class="flex flex-wrap gap-2 mt-auto">
+                        <span *ngFor="let tag of project.tags"
+                            class="text-xs font-semibold bg-slate-900 text-slate-300 px-2 py-1 rounded">
+                            #{{ tag }}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

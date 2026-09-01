@@ -1,0 +1,42 @@
+<nav class="fixed w-full z-50 transition-all duration-300 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
+    <div class="container flex justify-between items-center h-16">
+        <a routerLink="/"
+            class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
+            Rekha.Dev
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex gap-8">
+            <a routerLink="/" fragment="about"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">About</a>
+            <a routerLink="/" fragment="experience"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">Experience</a>
+            <a routerLink="/" fragment="education"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">Education</a>
+            <a routerLink="/" fragment="skills"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">Skills</a>
+            <a routerLink="/" fragment="projects"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">Projects</a>
+            <a routerLink="/" fragment="contact"
+                class="text-slate-300 hover:text-white transition-colors cursor-pointer">Contact</a>
+        </div>
+
+        <!-- Mobile Toggle -->
+        <button (click)="toggleMenu()" class="md:hidden text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div *ngIf="isMenuOpen" class="md:hidden bg-slate-800 border-t border-white/10 p-4 flex flex-col gap-4">
+        <a routerLink="/" fragment="about" (click)="toggleMenu()" class="text-slate-300">About</a>
+        <a routerLink="/" fragment="experience" (click)="toggleMenu()" class="text-slate-300">Experience</a>
+        <a routerLink="/" fragment="education" (click)="toggleMenu()" class="text-slate-300">Education</a>
+        <a routerLink="/" fragment="skills" (click)="toggleMenu()" class="text-slate-300">Skills</a>
+        <a routerLink="/" fragment="projects" (click)="toggleMenu()" class="text-slate-300">Projects</a>
+        <a routerLink="/" fragment="contact" (click)="toggleMenu()" class="text-slate-300">Contact</a>
+    </div>
+</nav>

@@ -6,7 +6,8 @@
     "about": "Experienced professional with a deep background in Cloud Platforms (Azure & GCP), Platform Engineering, and Enterprise Architecture. Passionate about Conversational AI (Alexa, Dialogflow) and Robotics (Humanoid Temi). Dedicated to solving complex business problems through innovative technology solutions.",
     "links": {
       "linkedin": "https://www.linkedin.com/in/rekhamecherry",
-      "facebook": "https://www.facebook.com"
+      "facebook": "https://www.facebook.com",
+      "website": "https://www.rekha.mecherry.com"
     }
   },
   "skills": {
@@ -188,9 +189,54 @@
   },
   "experience": [
     {
-      "company": "Wells Fargo",
-      "role": "Cloud Architect / Platform Engineer",
-      "description": "Leading cloud transformation and platform engineering initiatives."
+      "company": "Wells Fargo, Bangalore",
+      "role": "[VP] Lead Software Engineer - Cloud / Platform Engineering",
+      "period": "Aug 2023 – Present"
+    },
+    {
+      "company": "Wells Fargo, Bangalore",
+      "role": "[AVP] Senior Systems Architect - Enterprise Architecture",
+      "period": "Nov 2022 – Aug 2023"
+    },
+    {
+      "company": "Infosys, Trivandrum",
+      "role": "Senior Technology Architect",
+      "period": "Sep 2019 – Nov 2022"
+    },
+    {
+      "company": "Finastra, Trivandrum",
+      "role": "Expert Software Architect",
+      "period": "Jan 2017 – Aug 2019"
+    },
+    {
+      "company": "Mercer India Pvt. Ltd., Gurgaon",
+      "role": "Project Manager",
+      "period": "Nov 2013 – Dec 2016"
+    },
+    {
+      "company": "Mercer India Pvt. Ltd., Gurgaon",
+      "role": "Project Lead",
+      "period": "Sep 2011 – Nov 2013"
+    },
+    {
+      "company": "Mercer India Pvt. Ltd., Gurgaon",
+      "role": "Module Lead",
+      "period": "Jun 2010 – Aug 2011"
+    },
+    {
+      "company": "Mercer India Pvt. Ltd., Gurgaon",
+      "role": "Sr. Software Engineer",
+      "period": "Aug 2008 – Jun 2010"
+    },
+    {
+      "company": "Adasoft India Pvt. Ltd., Gurgaon",
+      "role": "Systems Engineer",
+      "period": "Apr 2007 – Aug 2008"
+    },
+    {
+      "company": "KG Information Systems (P) Limited, Coimbatore",
+      "role": "Software Engineer",
+      "period": "Oct 2000 – Oct 2003"
     }
   ],
   "projects": [

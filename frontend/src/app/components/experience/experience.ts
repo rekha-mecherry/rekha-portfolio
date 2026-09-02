@@ -34,12 +34,16 @@ export class ExperienceComponent {
   ];
 
   timeline = [
-    { company: 'Wells Fargo', location: 'Bangalore', role: 'Senior Systems Architect', period: 'Nov 2022 – Present', current: true },
+    { company: 'Wells Fargo', location: 'Bangalore', role: '[VP] Lead Software Engineer - Cloud / Platform Engineering', period: 'Aug 2023 – Present', current: true },
+    { company: 'Wells Fargo', location: 'Bangalore', role: '[AVP] Senior Systems Architect - Enterprise Architecture', period: 'Nov 2022 – Aug 2023', current: false },
     { company: 'Infosys', location: 'Trivandrum', role: 'Senior Technology Architect', period: 'Sep 2019 – Nov 2022', current: false },
     { company: 'Finastra', location: 'Trivandrum', role: 'Expert Software Architect', period: 'Jan 2017 – Aug 2019', current: false },
-    { company: 'Mercer India Pvt. Ltd.', location: 'Gurgaon', role: 'Project Manager [Tech.]', period: 'Aug 2008 – Dec 2016', current: false },
-    { company: 'Adasoft India Pvt. Ltd.', location: 'Gurgaon', role: 'Systems Engineer', period: 'Apr 2007 – Aug 2008', current: false },
-    { company: 'KG Information Systems (P) Limited', location: 'Coimbatore', role: 'Software Engineer', period: 'Oct 2000 – Oct 2003', current: false }
+    { company: 'Mercer India Pvt. Ltd.', location: 'Gurgaon', role: 'Project Manager', period: 'Nov 2013 – Dec 2016', current: false },
+    { company: 'Mercer India Pvt. Ltd.', location: 'Gurgaon', role: 'Project Lead', period: 'Sep 2011 – Nov 2013', current: false },
+    { company: 'Mercer India Pvt. Ltd.', location: 'Gurgaon', role: 'Module Lead', period: 'Jun 2010 – Aug 2011', current: false },
+    { company: 'Mercer India Pvt. Ltd.', location: 'Gurgaon', role: 'Sr. Software Engineer', period: 'Aug 2008 – Jun 2010', current: false },
+    // { company: 'Adasoft India Pvt. Ltd.', location: 'Gurgaon', role: 'Systems Engineer', period: 'Apr 2007 – Aug 2008', current: false },
+    // { company: 'KG Information Systems (P) Limited', location: 'Coimbatore', role: 'Software Engineer', period: 'Oct 2000 – Oct 2003', current: false }
   ];
 
   workExperience = [

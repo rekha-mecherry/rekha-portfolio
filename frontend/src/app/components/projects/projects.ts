@@ -11,6 +11,12 @@ import { CommonModule } from '@angular/common';
 export class ProjectsComponent {
   projects = [
     {
+      title: "Platform Engineering & Automations — Cloud Native Services",
+      description: "Leading a platform engineering initiative to build the foundation layer for cloud native service enablement, onboarding Microsoft Fabric SaaS via an Internal Developer Platform (IDP) with self-service automation. Designed and implemented an extendable foundation architecture ",
+      tags: ["Python", "FastAPI", "Kafka", "MS Fabric", "OpenShift", "Harness", "Terraform", "Vault"],
+      color: "from-purple-500 to-indigo-500"
+    },
+    {
       title: "GCP Platform Engineering — GKE & Middleware",
       description: "Designed secure, reusable Terraform modules for GKE clusters with embedded logging, monitoring, and enterprise policies aligned to Cloud Control Framework. Led IDP enablement for self-service cloud-native provisioning.",
       tags: ["GCP", "Terraform", "GKE", "IAM", "GitHub Copilot"],

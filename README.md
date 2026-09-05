@@ -5,8 +5,7 @@ A modern full-stack portfolio showcasing 20+ years of expertise in Cloud Archite
 ## Features
 
 - **Interactive Portfolio (Angular 21 + Tailwind CSS)**: Hero section, career timeline, key projects, technical skill matrix, and architecture showcase.
-- **Multi-Agent AI Assistant (FastAPI + Google Gemini)**: Embedded intelligent chat widget powered by a multi-agent routing system (`BioAgent`, `TechAgent`, `ProjectAgent`, and `Router`).
-
+- **Multi-Agent AI Assistant (FastAPI + Google Gemini)**: Embedded intelligent chat widget powered by a multi-agent routing system
 ## Project Structure
 
 ```

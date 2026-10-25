@@ -8,6 +8,7 @@ import { SkillsComponent } from './components/skills/skills';
 import { ProjectsComponent } from './components/projects/projects';
 import { ExperienceComponent } from './components/experience/experience';
 import { EducationComponent } from './components/education/education';
+import { ContactComponent } from './components/contact/contact';
 import { ChatWidgetComponent } from './components/chat-widget/chat-widget';
 
 @Component({
@@ -23,6 +24,7 @@ import { ChatWidgetComponent } from './components/chat-widget/chat-widget';
     EducationComponent,
     SkillsComponent,
     ProjectsComponent,
+    ContactComponent,
     ChatWidgetComponent
   ],
   templateUrl: './app.html',

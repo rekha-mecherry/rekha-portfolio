@@ -239,23 +239,277 @@
       "period": "Oct 2000 – Oct 2003"
     }
   ],
+  "career_highlights": [
+    {
+      "icon": "🏆",
+      "title": "Project Excellence Award",
+      "detail": "Awarded by Infosys for the implementation of a humanoid voice system — a cutting-edge Conversational AI solution for a major US telecom client."
+    },
+    {
+      "icon": "🛡️",
+      "title": "Azure IoT Platform Security",
+      "detail": "Secured the Azure cloud platform for an IoT product; received formal appreciation from leadership for outstanding contributions to the account."
+    },
+    {
+      "icon": "⭐",
+      "title": "Star of the Month & Team of the Quarter",
+      "detail": "Recognised multiple times with Star of the Month and Team of the Quarter awards for exceptional individual and team performance."
+    },
+    {
+      "icon": "🚀",
+      "title": "6-Year Offshore Product Leadership",
+      "detail": "Successfully led offshore product development for Health & Benefit LOB projects over 6 years, earning accolades from senior onshore leaders."
+    }
+  ],
+  "career_timeline": [
+    {
+      "company": "Wells Fargo",
+      "location": "Bangalore",
+      "role": "[VP] Lead Platform Engineer - Cloud / Platform Engineering",
+      "period": "Aug 2023 – Present",
+      "current": true
+    },
+    {
+      "company": "Wells Fargo",
+      "location": "Bangalore",
+      "role": "[AVP] Senior Systems Architect - Enterprise Architecture",
+      "period": "Nov 2022 – Aug 2023",
+      "current": false
+    },
+    {
+      "company": "Infosys",
+      "location": "Trivandrum",
+      "role": "Senior Technology Architect",
+      "period": "Sep 2019 – Nov 2022",
+      "current": false
+    },
+    {
+      "company": "Finastra",
+      "location": "Trivandrum",
+      "role": "Expert Software Architect",
+      "period": "Jan 2017 – Aug 2019",
+      "current": false
+    },
+    {
+      "company": "Mercer India Pvt. Ltd.",
+      "location": "Gurgaon",
+      "role": "Project Manager",
+      "period": "Nov 2013 – Dec 2016",
+      "current": false
+    },
+    {
+      "company": "Mercer India Pvt. Ltd.",
+      "location": "Gurgaon",
+      "role": "Project Lead",
+      "period": "Sep 2011 – Nov 2013",
+      "current": false
+    },
+    {
+      "company": "Mercer India Pvt. Ltd.",
+      "location": "Gurgaon",
+      "role": "Module Lead",
+      "period": "Jun 2010 – Aug 2011",
+      "current": false
+    },
+    {
+      "company": "Mercer India Pvt. Ltd.",
+      "location": "Gurgaon",
+      "role": "Sr. Software Engineer",
+      "period": "Aug 2008 – Jun 2010",
+      "current": false
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Bharathiyar University",
+      "location": "Tamil Nadu, India"
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Lead Platform Engineer",
+      "subtitle": "Lead - Platform Engineering & Automations",
+      "period": "April – Till Date",
+      "domain": "Cloud Native Services",
+      "tools": [
+        "Python",
+        "FastAPI",
+        "Kafka",
+        "GitHub Actions CI",
+        "Harness CD",
+        "OpenShift",
+        "HashiCorp Vault",
+        "MS Fabric",
+        "Terraform",
+        "IDP",
+        "VSCode"
+      ],
+      "points": [
+        "Leading a platform engineering initiative to build the foundation layer for cloud-native service enablement, onboarding Microsoft Fabric SaaS via an Internal Developer Platform (IDP) with self-service automation.",
+        "Designed and implemented an extendable foundation architecture that accelerates enterprise cloud modernization by delivering secure, compliant, and reusable automation workflows.",
+        "Integrated technologies including Python, FastAPI, Kafka, GitHub Actions CI, Harness CD, and OpenShift to enable scalable and consistent adoption of Fabric services across environments."
+      ]
+    },
+    {
+      "title": "Lead Cloud Platform Engineer",
+      "subtitle": "Lead Software Engineer",
+      "period": "Aug 2024 – Present",
+      "domain": "GCP Platform Engineering",
+      "tools": [
+        "Terraform",
+        "VSCode",
+        "GitHub Copilot",
+        "GKE",
+        "Terraform Test Framework"
+      ],
+      "points": [
+        "Developed native GCP services and middleware modules with embedded centralised logging, monitoring, and enterprise policies aligned to Cloud Control Framework and industry security benchmarks.",
+        "Validated and designed IAM access permissions for Google Kubernetes Engine (GKE) modules, enforcing standardised access controls and governance for secure automation.",
+        "Extended platform modules using the Terraform test framework, implementing unit and integration testing to improve reliability and compliance.",
+        "Leading the enablement of self-service provisioning for cloud-native services through an Internal Developer Portal (IDP), driving secure, consistent, and scalable platform adoption.",
+        "Leveraged GitHub Copilot for coding, testing, and documentation; actively involved in cloud service activation processes aligned to enterprise procedures."
+      ]
+    },
+    {
+      "title": "Enterprise Architect - Sr.System Architect",
+      "subtitle": "Enterprise Architecture",
+      "period": "Nov 2022 – Aug 2024",
+      "domain": "Enterprise Architecture & Governance",
+      "tools": [
+        "Open Group ArchiMate",
+        "BizzDesign Enterprise Studio",
+        "TOGAF",
+        "BIAN/BPPA"
+      ],
+      "points": [
+        "Designed and delivered Business, Application, and Technology architectures using ArchiMate and BizzDesign Enterprise Studio.",
+        "Contributed to application portfolio rationalisation, cloud migration assessments, and definition of target-state architectures to support enterprise modernisation initiatives.",
+        "Ensured alignment of business capabilities with technology roadmaps; participated in vendor architecture reviews and security assessments to maintain compliance with enterprise standards."
+      ]
+    },
+    {
+      "title": "PaaS/IaaS & DevOps Architect / Consultant",
+      "subtitle": "IoT Platform & Innovation Projects",
+      "period": "Sep 2019 – Oct 2022",
+      "domain": "Azure Cloud | Conversational AI | Biometrics",
+      "tools": [
+        "Azure API Management-APIM",
+        "Azure Functions",
+        "Event Hub",
+        "Azure DevOps",
+        "Bicep",
+        "ARM",
+        "Terraform",
+        "PowerShell",
+        "Dialogflow",
+        "Android",
+        "CoreML",
+        "Google ML Kit",
+        "TensorFlow Lite"
+      ],
+      "points": [
+        "Designed and delivered Azure Serverless Architecture for an enterprise IoT platform — Azure Functions, APIM Gateway, Event Hub, Azure Storage, and VNet-secured APIM policies.",
+        "Implemented Traffic Manager, Azure Front Door, and Application Gateway for global load balancing and high availability.",
+        "Designed DR and BCP for serverless workloads with multi-region failover, custom APIM policies, and cross-region replication for Azure PostgreSQL supporting analytics and disaster recovery.",
+        "Built a Blue-Green deployment CI/CD pipeline for Azure Functions using GitHub Actions, Bicep, and ARM templates, ensuring zero-downtime releases.",
+        "Architected a humanoid mobile application with a custom speech engine using Google Dialogflow, Android, and NLP for a major US telecom client — enhancing retail customer engagement.",
+        "Built retail experiences using Amazon Alexa, designing an In-Store Assistant for Amazon Echo Show.",
+        "Contributed to a telecom pilot implementing Face Biometrics Authentication on edge devices using CoreML, Google ML Kit, and TensorFlow Lite for real-time identity verification in low-latency environments."
+      ]
+    },
+    {
+      "title": "Product Architect & API Gateway Administrator",
+      "subtitle": "Web Application Product",
+      "period": "Apr 2017 – Aug 2019",
+      "domain": "FinTech | API Management | Web Modernisation",
+      "tools": [
+        "ASP.NET MVC",
+        "C#",
+        "Angular 4",
+        "NGRX",
+        "WebAPI",
+        "Dapper",
+        "TDD",
+        "VSTS",
+        "GIT",
+        "OAuth2",
+        "Identity Server",
+        "IBM API Connect"
+      ],
+      "points": [
+        "Managed IBM API Gateway (API Connect) for a suite of identity & credit protection products used across Canadian financial institutions, ensuring secure access and compliance.",
+        "Led modernisation initiatives converting legacy web services into microservices, supporting cloud migration to scalable, cloud-native architectures.",
+        "Delivered OpenAPI-driven architectures standardising API governance, documentation, versioning, and developer onboarding."
+      ]
+    }
+  ],
   "projects": [
     {
-      "name": "Humanoid Temi Integration",
-      "description": "Developed conversational interfaces for the Temi robot...",
+      "name": "Platform Engineering & Automations — Cloud Native Services",
+      "description": "Leading a platform engineering initiative to build the foundation layer for cloud native service enablement, onboarding Microsoft Fabric SaaS via an Internal Developer Platform (IDP) with self-service automation. Designed and implemented an extendable foundation architecture.",
+      "tech_stack": [
+        "Python",
+        "FastAPI",
+        "Kafka",
+        "MS Fabric",
+        "OpenShift",
+        "Harness",
+        "Terraform",
+        "Vault"
+      ]
+    },
+    {
+      "name": "GCP Platform Engineering — GKE & Middleware",
+      "description": "Designed secure, reusable Terraform modules for GKE clusters with embedded logging, monitoring, and enterprise policies aligned to Cloud Control Framework. Led IDP enablement for self-service cloud-native provisioning.",
+      "tech_stack": [
+        "GCP",
+        "Terraform",
+        "GKE",
+        "IAM",
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "name": "Azure IoT Platform — Serverless PaaS",
+      "description": "Designed Azure Serverless Architecture for an enterprise IoT platform — APIM, Event Hub, Traffic Manager, Front Door, and Blue-Green CI/CD pipeline with zero-downtime deployments.",
+      "tech_stack": [
+        "Azure Functions",
+        "APIM",
+        "Event Hub",
+        "Bicep",
+        "GitHub Actions"
+      ]
+    },
+    {
+      "name": "Humanoid Voice System — Telecom Retail AI",
+      "description": "Architected a humanoid mobile application with a custom speech engine using Google Dialogflow, Android, and NLP for a major US telecom client. Winner of Infosys Project Excellence Award.",
       "tech_stack": [
         "Android via Temi SDK",
         "Dialogflow",
+        "NLP",
+        "Google ML Kit",
         "Python"
       ]
     },
     {
-      "name": "Enterprise Cloud Migration",
-      "description": "Led the migration of legacy systems to Azure...",
+      "name": "Amazon Echo Show In-Store Assistant",
+      "description": "Built immersive retail customer experiences using Amazon Alexa Skills Kit, designing an AI-powered In-Store Assistant for Amazon Echo Show deployments.",
       "tech_stack": [
-        "Azure",
-        "Kubernetes",
-        "Terraform"
+        "Amazon Alexa",
+        "Alexa Skills Kit",
+        "AWS Lambda"
+      ]
+    },
+    {
+      "name": "IBM API Connect — Canadian FinTech Platform",
+      "description": "Managed IBM API Gateway for a suite of identity & credit protection products across Canadian financial institutions. Led modernisation from legacy web services to cloud-native microservices.",
+      "tech_stack": [
+        "IBM API Connect",
+        "ASP.NET MVC",
+        "Angular 4",
+        "OAuth2",
+        "Identity Server"
       ]
     }
   ]

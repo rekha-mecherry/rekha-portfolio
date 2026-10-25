@@ -48,7 +48,22 @@ export class ExperienceComponent {
 
   workExperience = [
     {
-      title: 'Compute & Middleware Engineer',
+      title: 'Lead Platform Engineer',
+      subtitle: 'Lead - Platform Engineering & Automations',
+      period: 'April – Till Date',
+      domain: 'Cloud Native Services',
+      tools: ['Python', 'FastAPI', 'Kafka', 'GitHub Actions CI', 'Harness CD', 'OpenShift', 'HashiCorp Vault', 'MS Fabric', 'Terraform', 'IDP', 'VSCode'],
+      color: 'from-cyan-500 to-blue-500',
+      colorBorder: 'border-cyan-500/30',
+      colorBadge: 'bg-cyan-500/10 text-cyan-300',
+      points: [
+        'Leading a platform engineering initiative to build the foundation layer for cloud-native service enablement, onboarding Microsoft Fabric SaaS via an Internal Developer Platform (IDP) with self-service automation.',
+        'Designed and implemented an extendable foundation architecture that accelerates enterprise cloud modernization by delivering secure, compliant, and reusable automation workflows.',
+        'Integrated technologies including Python, FastAPI, Kafka, GitHub Actions CI, Harness CD, and OpenShift to enable scalable and consistent adoption of Fabric services across environments.'
+      ]
+    },
+    {
+      title: 'Lead Cloud Platform Engineer',
       subtitle: 'Lead Software Engineer',
       period: 'Aug 2024 – Present',
       domain: 'GCP Platform Engineering',
@@ -65,7 +80,7 @@ export class ExperienceComponent {
       ]
     },
     {
-      title: 'Enterprise / Domain Architect',
+      title: 'Enterprise Architect - Sr.System Architect',
       subtitle: 'Enterprise Architecture',
       period: 'Nov 2022 – Aug 2024',
       domain: 'Enterprise Architecture & Governance',
@@ -84,7 +99,7 @@ export class ExperienceComponent {
       subtitle: 'IoT Platform & Innovation Projects',
       period: 'Sep 2019 – Oct 2022',
       domain: 'Azure Cloud | Conversational AI | Biometrics',
-      tools: ['Azure Functions', 'APIM', 'Event Hub', 'Azure DevOps', 'Bicep', 'ARM', 'Terraform', 'PowerShell', 'Dialogflow', 'Android', 'CoreML', 'Google ML Kit', 'TensorFlow Lite'],
+      tools: ['Azure API Management-APIM', 'Azure Functions', 'Event Hub', 'Azure DevOps', 'Bicep', 'ARM', 'Terraform', 'PowerShell', 'Dialogflow', 'Android', 'CoreML', 'Google ML Kit', 'TensorFlow Lite'],
       color: 'from-orange-500 to-rose-500',
       colorBorder: 'border-orange-500/30',
       colorBadge: 'bg-orange-500/10 text-orange-300',

@@ -10,11 +10,8 @@ import { CommonModule } from '@angular/common';
 })
 export class AboutComponent {
   bio = [
-    "Systems Architect & Cloud Platform Lead with 20+ years of experience designing distributed systems and cloud solutions across web, microservices, BI, and Conversational AI domains.",
-    "Currently working as Lead Platform Engineer [Public Cloud], leading the design, provisioning, and security hardening of GCP platforms using enterprise-grade Terraform IaC automation. Strong focus on security, compliance, and delivering standardised platform archetypes across Azure and GCP.",
-    "Proven expertise in platform engineering, middleware, and enterprise integration — building reusable cloud-native services, API ecosystems, and event-driven messaging/streaming platforms.",
-    "Strong knowledge of cloud security principles including Defence-in-Depth, Principle of Least Privilege, and DevSecOps practices. Hands-on experience with AAD/EntraID, RBAC, IAM, OAuth 2.0 and OpenID Connect.",
-    "Currently upskilling in GenAI and Agentic AI, focusing on autonomous agent design, orchestrators, tool-use patterns, and domain-specific AI use cases."
+    "Accomplished Technical Leader and Enterprise & Cloud Solutions Architect with 20+ years of experience across Financial, Telecom, and Insurance domains. Proven expertise in platform engineering, enterprise architecture, web & microservices architecture and enterprise integration, designing and delivering cloud native solutions, IaC & DevOps, API Management, event driven messaging & streaming platforms and Conversational AI solutions.",
+    "Currently leading platform engineering and AI automation initiatives for highly regulated environment, combining hands on technical leadership with strategic vision to deliver compliant, enterprise solutions, while improving developer experience and cloud adoption."
   ];
 
   highlights = [

@@ -3,7 +3,7 @@
     "name": "Rekha Mecherry",
     "title": "Cloud Architect & Platform Engineer",
     "tagline": "Bridging Cloud, AI, and Experience",
-    "about": "Experienced professional with a deep background in Cloud Platforms (Azure & GCP), Platform Engineering, and Enterprise Architecture. Passionate about Conversational AI (Alexa, Dialogflow) and Robotics (Humanoid Temi). Dedicated to solving complex business problems through innovative technology solutions.",
+    "about": "Accomplished Technical Leader and Enterprise & Cloud Solutions Architect with 20+ years of experience across Financial, Telecom, and Insurance domains. Proven expertise in platform engineering, enterprise architecture, web & microservices architecture and enterprise integration, designing and delivering cloud native solutions, IaC & DevOps, API Management, event driven messaging & streaming platforms and Conversational AI solutions. Currently leading platform engineering and AI automation initiatives for highly regulated environment, combining hands on technical leadership with strategic vision to deliver compliant, enterprise solutions, while improving developer experience and cloud adoption.",
     "links": {
       "linkedin": "https://www.linkedin.com/in/rekhamecherry",
       "facebook": "https://www.facebook.com",
@@ -446,70 +446,201 @@
   ],
   "projects": [
     {
-      "name": "Platform Engineering & Automations — Cloud Native Services",
-      "description": "Leading a platform engineering initiative to build the foundation layer for cloud native service enablement, onboarding Microsoft Fabric SaaS via an Internal Developer Platform (IDP) with self-service automation. Designed and implemented an extendable foundation architecture.",
+      "name": "Automated Self-Service Infrastructure Provisioning Engine (IDP)",
+      "company": "Wells Fargo",
+      "role": "Lead Infrastructure Engineer [VP] - Cloud Platform Engineering",
+      "period": "Aug 2024 – Present",
+      "description": "Architecting and leading an automated self-service infrastructure provisioning engine within an Internal Developer Portal (IDP), leveraging a Python + FastAPI backend integration framework to orchestrate, validate, and execute cloud service provisioning. Enables business teams with secure self-service capabilities, driving 65% time savings, accelerating cloud adoption, and improving developer velocity.",
+      "highlights": "Drives 65% time savings in cloud service provisioning, improves developer velocity, and accelerates cloud adoption in a highly regulated financial enterprise.",
       "tech_stack": [
         "Python",
         "FastAPI",
+        "Internal Developer Portal (IDP)",
         "Kafka",
-        "MS Fabric",
         "OpenShift",
-        "Harness",
+        "Harness Pipeline",
+        "GitHub Actions",
+        "JFrog Artifactory",
+        "MS Fabric",
         "Terraform",
         "Vault"
       ]
     },
     {
-      "name": "GCP Platform Engineering — GKE & Middleware",
-      "description": "Designed secure, reusable Terraform modules for GKE clusters with embedded logging, monitoring, and enterprise policies aligned to Cloud Control Framework. Led IDP enablement for self-service cloud-native provisioning.",
+      "name": "Agentic AI Multi-Agent Orchestrator for Dynamic Cloud Provisioning",
+      "company": "Wells Fargo",
+      "role": "Lead Infrastructure Engineer [VP] - Cloud Platform Engineering",
+      "period": "2024 – Present",
+      "description": "Prototyping and designing an Agentic AI multi-agent orchestrator leveraging Azure AI Foundry to automate dynamic provisioning of cloud services. Focuses on enabling intelligent orchestration and adaptive workflows using Agentic AI, aimed at improving automation efficiency and enterprise scalability.",
+      "highlights": "Pioneered agentic AI workflow orchestration for cloud service automation and intelligent infrastructure decisioning.",
+      "tech_stack": [
+        "Agentic AI",
+        "Azure AI Foundry",
+        "Multi-Agent System Orchestration",
+        "LLMs (GPT, Gemini)",
+        "Microsoft Copilot",
+        "Python"
+      ]
+    },
+    {
+      "name": "Enterprise Cloud-Native Infrastructure & GKE Automation",
+      "company": "Wells Fargo",
+      "role": "Lead Infrastructure Engineer [VP] - Cloud Platform Engineering",
+      "period": "Aug 2024 – Present",
+      "description": "Engineered and provisioned secure core cloud-native services using HashiCorp Terraform, Sentinel, and Vault modules to support large-scale financial application workloads. Implemented Archetype Template configurations and established fine-grained IAM access permissions for Terraform service accounts, enabling automated and secure deployments of Google Kubernetes Engine (GKE) services.",
+      "highlights": "Established automated, secure, and compliant deployments of GKE modules aligned to Cloud Control Framework and industry security benchmarks.",
       "tech_stack": [
         "GCP",
-        "Terraform",
-        "GKE",
+        "Google Kubernetes Engine (GKE)",
+        "HashiCorp Terraform",
+        "Vault",
+        "Sentinel",
         "IAM",
+        "Terraform Test Framework",
         "GitHub Copilot"
       ]
     },
     {
-      "name": "Azure IoT Platform — Serverless PaaS",
-      "description": "Designed Azure Serverless Architecture for an enterprise IoT platform — APIM, Event Hub, Traffic Manager, Front Door, and Blue-Green CI/CD pipeline with zero-downtime deployments.",
+      "name": "Enterprise Architecture Modeling & Application Rationalization",
+      "company": "Wells Fargo",
+      "role": "Senior Systems Architect [AVP] - Enterprise Architecture",
+      "period": "Nov 2022 – Aug 2024",
+      "description": "Contributed to domain-specific business application rationalization initiatives by defining, designing, and modeling current and future-state technology roadmaps using Open Group ArchiMate and BizzDesign Enterprise Studio. Accelerated enterprise cloud modernization strategies by collaborating with business teams on application cloud migrations, third-party vendor onboarding, and executing comprehensive security assessments.",
+      "highlights": "Streamlined application portfolios, reduced redundant systems, and aligned enterprise architecture roadmaps with BIAN and TOGAF standards.",
       "tech_stack": [
-        "Azure Functions",
-        "APIM",
-        "Event Hub",
-        "Bicep",
-        "GitHub Actions"
+        "OpenGroup ArchiMate 3.1",
+        "BizzDesign Enterprise Studio",
+        "TOGAF",
+        "BIAN",
+        "BPPA",
+        "Cloud Security Assessments"
       ]
     },
     {
-      "name": "Humanoid Voice System — Telecom Retail AI",
-      "description": "Architected a humanoid mobile application with a custom speech engine using Google Dialogflow, Android, and NLP for a major US telecom client. Winner of Infosys Project Excellence Award.",
+      "name": "Azure Serverless IoT Platform & Resilient PaaS Architecture",
+      "company": "Infosys",
+      "role": "Senior Technology Architect",
+      "period": "Sep 2019 – Nov 2022",
+      "description": "Designed Azure APIM security enhancements for an IoT platform product in Azure PaaS/IaaS, securing connectivity via Azure APIM gateways integrated with dedicated Virtual Networks (VNets) and custom policy restrictions. Maximized system availability and resilience by designing a robust disaster recovery strategy, implementing custom cross-region failover policies in Azure APIM, and configuring cross-region replicas for Azure PostgreSQL. Eliminated deployment downtime by introducing Blue-Green deployment strategies into CI/CD pipelines via Bicep and ARM templates for serverless Azure Functions.",
+      "highlights": "Secured the Azure cloud platform for an IoT product; received leadership appreciation; achieved zero-downtime Blue-Green releases and multi-region disaster recovery.",
+      "tech_stack": [
+        "Azure Functions",
+        "Azure APIM",
+        "Event Hub",
+        "Azure Front Door",
+        "Traffic Manager",
+        "Dedicated VNets",
+        "Bicep",
+        "ARM Templates",
+        "Azure PostgreSQL",
+        "GitHub Actions",
+        "PowerShell"
+      ]
+    },
+    {
+      "name": "Humanoid Temi Robot Conversational Retail Assistant",
+      "company": "Infosys",
+      "role": "Senior Technology Architect",
+      "period": "Sep 2019 – Nov 2022",
+      "description": "Conceptualized and built an autonomous humanoid Temi Robot retail application leveraging a custom speech framework via Google Dialogflow on Android. Designed custom dialogue management and NLP interfaces for low-latency in-store customer engagement for a major US telecom client.",
+      "highlights": "Winner of the prestigious Infosys Project Excellence Award for pioneering Conversational AI in retail robotics.",
       "tech_stack": [
         "Android via Temi SDK",
-        "Dialogflow",
+        "Google Dialogflow",
         "NLP",
+        "Custom Speech Engine",
         "Google ML Kit",
         "Python"
       ]
     },
     {
-      "name": "Amazon Echo Show In-Store Assistant",
-      "description": "Built immersive retail customer experiences using Amazon Alexa Skills Kit, designing an AI-powered In-Store Assistant for Amazon Echo Show deployments.",
+      "name": "Omni-Channel Retail In-Store Voice Assistant (Amazon Echo Show)",
+      "company": "Infosys",
+      "role": "Senior Technology Architect",
+      "period": "Sep 2019 – Nov 2022",
+      "description": "Designed an omni-channel retail in-store conversational assistant for Amazon Echo Show using the Alexa SDK, Alexa Presentation Framework (APL), and AWS Cloud Services (Lambda, IAM, S3, DynamoDB) to deliver interactive multimodal shopping experiences.",
+      "highlights": "Delivered voice-first interactive retail experiences across smart display hardware.",
       "tech_stack": [
-        "Amazon Alexa",
-        "Alexa Skills Kit",
-        "AWS Lambda"
+        "Amazon Alexa SDK",
+        "Alexa Presentation Framework (APL)",
+        "AWS Lambda",
+        "AWS IAM",
+        "AWS S3",
+        "DynamoDB"
       ]
     },
     {
-      "name": "IBM API Connect — Canadian FinTech Platform",
-      "description": "Managed IBM API Gateway for a suite of identity & credit protection products across Canadian financial institutions. Led modernisation from legacy web services to cloud-native microservices.",
+      "name": "IBM API Gateway Administration & Canadian FinTech Modernization",
+      "company": "Finastra",
+      "role": "Expert Software Architect",
+      "period": "Jan 2017 – Aug 2019",
+      "description": "Governed IBM API Connect gateway platform administration for a suite of value-added identity and credit protection products serving Canadian financial institutions. Led the modernization of legacy monolithic web services into secure, OpenAPI-compliant .NET microservices optimized for seamless cloud integration and third-party data exchange. Enforced robust application-level security architectures by integrating OAuth 2.0 via Identity Server alongside automated unit testing frameworks.",
+      "highlights": "Modernized legacy monoliths to cloud-native microservices; enforced bank-grade API governance and security across leading Canadian financial institutions.",
       "tech_stack": [
         "IBM API Connect",
+        "ASP.NET Core",
         "ASP.NET MVC",
+        "C#",
+        "Microservices",
+        "OpenAPI / REST",
+        "OAuth 2.0",
+        "Identity Server",
         "Angular 4",
-        "OAuth2",
-        "Identity Server"
+        "NGRX",
+        "Dapper",
+        "XUnit"
+      ]
+    },
+    {
+      "name": "Global Benefit Suite Portal & Healthcare LOB Ecosystem",
+      "company": "Marsh (formerly Mercer India Pvt. Ltd.)",
+      "role": "Technical Project Manager / Project Lead",
+      "period": "Aug 2008 – Dec 2016",
+      "description": "Supervised offshore product development, architecture definition, requirement analysis, and engineering execution for critical global healthcare systems and employee benefits lines of business (LOB) over 6 years. Architected and deployed the Global Benefit Suite Portal, creating an integrated e-business healthcare ecosystem spanning Europe, Asia-Pacific, and Latin America. Built high-throughput distributed architectures using WCF, complex stored procedures and ETL integration pipelines using SQL Server, SSIS, and SSRS, and analytical business dashboards.",
+      "highlights": "Successfully led offshore product development for Health & Benefit LOB projects over 6 years, earning accolades from senior onshore leaders.",
+      "tech_stack": [
+        "ASP.NET MVC 4.0/2.0",
+        "C#",
+        "WCF",
+        "Web Services",
+        "SQL Server",
+        "SSIS",
+        "SSRS",
+        "Angular",
+        "HTML5",
+        "CSS3",
+        "Agile Scrum"
+      ]
+    },
+    {
+      "name": "Distributed Backend Architecture & Systems Integration",
+      "company": "Securiton (formerly Adasoft India Pvt. Ltd.)",
+      "role": "Systems Engineer",
+      "period": "Apr 2007 – Aug 2008",
+      "description": "Designed and implemented core distributed backend architectures using Windows Communication Foundation (WCF) technology to support secure, high-throughput integration across distributed security and access management applications.",
+      "highlights": "Engineered reliable, high-throughput distributed integration services for physical security and enterprise systems.",
+      "tech_stack": [
+        "C#",
+        ".NET Framework",
+        "WCF",
+        "Web Services",
+        "SQL Server"
+      ]
+    },
+    {
+      "name": "Multi-Tier Enterprise Web Applications & Core Services",
+      "company": "KG Information Systems (KGISL)",
+      "role": "Software Engineer",
+      "period": "Oct 2000 – Oct 2003",
+      "description": "Engineered robust multi-tier web applications utilizing HTML, JavaScript, ASP/ASP.NET, and SQL Server. Constructed core Web Services to facilitate seamless integration and maintained backend transactional data logic using SQL Server and stored procedures.",
+      "highlights": "Constructed foundational multi-tier e-business solutions and database transaction pipelines.",
+      "tech_stack": [
+        "ASP.NET",
+        "Classic ASP",
+        "C#",
+        "JavaScript",
+        "SQL Server",
+        "Web Services"
       ]
     }
   ]

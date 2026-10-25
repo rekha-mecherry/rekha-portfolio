@@ -11,10 +11,11 @@ import { FormsModule } from '@angular/forms';
 })
 export class ContactComponent {
   contactInfo = {
+    email: 'rekhakm@yahoo.com',
     linkedin: 'https://www.linkedin.com/in/rekha-mecherry',
     website: 'https://rekha-mecherry-bveeebb0fnegaegn.centralindia-01.azurewebsites.net/',
     location: 'Bangalore, India',
-    status: 'Open to Enterprise Cloud & Architecture Consultations ,Remote Jobs [Architeture and Development'
+    status: 'Open to Enterprise Cloud & Architecture Consultations, Remote Jobs [Architecture and Development]'
   };
 
   formData = {

@@ -44,3 +44,7 @@ frontend/node_modules/
 .DS_Store
 Thumbs.db
 *.log
+
+# Excluded documentation and example folders
+example/
+examples/
